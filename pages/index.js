@@ -48,7 +48,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1XYqYVxHf_5sxEtm4XVOanKqOO_o_kpw7/view?usp=drive_link" // Add your resume link here
+                  href="https://drive.google.com/file/d/1A8KyAXxL37bm5WfdADv5d-cvNJDe1r5j/view" // Add your resume link here
                 >
                   Resume
                 </a>
