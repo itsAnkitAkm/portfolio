@@ -131,67 +131,48 @@ export default function Home() {
               Feel free to explore the details, and if you have any questions, don’t hesitate to reach out.
             </p>
           </div>
-          <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web1}
-                alt="Project 1"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web2}
-                alt="Project 2"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web3}
-                alt="Project 3"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web4}
-                alt="Project 4"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web5}
-                alt="Project 5"
-              />
-            </div>
-            <div className="basis-1/3 flex-1">
-              <Image
-                className="rounded-lg object-cover"
-                width={"100%"}
-                height={"100%"}
-                layout="responsive"
-                src={web6}
-                alt="Project 6"
-              />
-            </div>
+         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+      <div className="basis-1/3 flex-1">
+        <Image
+          className="rounded-lg object-cover"
+          layout="responsive"
+          width={1800}
+          height={1100}
+          src={web1}
+          alt="Project 1"
+        />
+      </div>
+      <div className="basis-1/3 flex-1">
+        <Image
+          className="rounded-lg object-cover"
+          layout="responsive"
+          width={1800}
+          height={1100}
+          src={web2}
+          alt="Project 2"
+        />
+      </div>
+      <div className="basis-1/3 flex-1">
+        <Image
+          className="rounded-lg object-cover"
+          layout="responsive"
+          width={1800}
+          height={1100}
+          src={web3}
+          alt="Project 3"
+        />
+      </div>
+      <div className="basis-1/3 flex-1">
+        <Image
+          className="rounded-lg object-cover"
+          layout="responsive"
+          width={1800}
+          height={1100}
+          src={web4}
+          alt="Project 4"
+        />
+      </div>
+            
           </div>
         </section>
         <section className="py-10">
